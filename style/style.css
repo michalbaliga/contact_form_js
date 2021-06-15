@@ -1,0 +1,79 @@
+html {
+  line-height: 1.2;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+.page-header {
+  text-align: center;
+  padding-top: 100px;
+}
+a {
+  font-size: 1em;
+  margin: 0.67em 0;
+  text-decoration: none;
+  color: #35acdb;
+}
+a:hover {
+  background: #121fcf;
+  background: -webkit-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: -moz-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fullScreen {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.main {
+  width: 25%;
+  position: relative;
+  margin: 0 auto;
+}
+.lineOne,
+.lineTwo,
+.lineThree,
+.linePass {
+  padding: 20px 0 0 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.close {
+  display: block;
+  height: 30px;
+  width: 80px;
+  background: #35acdb;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+  margin: 0 10px 0 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.close:hover {
+  background: #3591b5;
+}
+.buttons {
+position: relative;
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 20px;
+}
+.name {
+  padding: 0 10px 0 0;
+}
+.value {
+width: 60%;
+}
